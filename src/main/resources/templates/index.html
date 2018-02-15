@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+      th:href="@{/webjars/bootstrap/3.3.5/css/bootstrap.min.css}" rel="stylesheet" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+        th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+        th:src="@{/webjars/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<h1>Csv Download</h1>
+<a href="/curryUser/download" th:href="@{/curryUser/download}" class="btn btn-default">ダウンロード(csv)</a>
+</body>
+</html>
